@@ -12,3 +12,6 @@ def login(request):
 
 def res(request):
        return HttpResponse("res")
+
+def add_car(request):
+       return HttpResponse("add_car")
